@@ -13,12 +13,17 @@ import Botao from '../Botao'
         'Inovação e Gestão'
     ]
 
+    const aoSalvar = (evento) => {
+        evento.preventDefault()
+        console.log("Form foi submetido");
+    }
+
 const Formulario = () => {
     return (
         <section className='formulario'>
-            <form>
+            <form onSubmit={aoSalvar}>
                 <h2>Preencha os Dados para criar o card do Colaborador</h2>
-                <CampoTexto label="Nome" placeholder="Digite seu Nome" />
+                <CampoTexto obrigatorio={true} label="Nome" placeholder="Digite seu Nome" />
                 <CampoTexto label="Cargo" placeholder="Digite seu Cargo" />
                 <CampoTexto label="Imagem" placeholder="Digite o endereço da Imagem" />
                 <ListaSuspensa label="Time" itens={time}/>
