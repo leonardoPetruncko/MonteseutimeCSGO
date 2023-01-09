@@ -1,6 +1,6 @@
 import './Colaborador.css'
 
-const Colaborador = () => {
+const Colaborador = ({nome, imagem, cargo}) => {
     return (
         <div className='colaborador'>
             <div className='cabecalho'>
@@ -8,12 +8,8 @@ const Colaborador = () => {
             </div>
 
             <div className='rodape'>
-                <h4>
-                    Leonardo
-                </h4>
-                <h5>
-                    Professor
-                </h5>
+                <h4>{nome}</h4>
+                <h5>{cargo}</h5>
             </div>
         </div>
     )
