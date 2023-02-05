@@ -8,27 +8,27 @@ function App() {
 
   const times = [
     {
-      nome: 'Top Lane',
+      nome: 'Entry Fragger',
       corPrimaria: '#57C278',
       corSecundaria: '#D9F7E9'
     },
     {
-      nome: 'Jungle',
+      nome: 'Awp',
       corPrimaria: '#82CFFA',
       corSecundaria: '#E8F8FF'
     },
     {
-      nome: 'Mid Lane',
+      nome: 'Lurker',
       corPrimaria: '#A6D157',
       corSecundaria: '#F0F8E2'
     },
     {
-      nome: 'Atirador',
+      nome: 'Suporte',
       corPrimaria: '#E06B69',
       corSecundaria: '#FDE7E8'
     },
     {
-      nome: 'Suporte',
+      nome: 'IGL',
       corPrimaria: '#DB6EBF',
       corSecundaria: '#FAE9F5'
     },
